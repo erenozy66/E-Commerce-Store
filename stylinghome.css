@@ -1,0 +1,13 @@
+* {
+    font-family: Hedvig_Letters_Serif;
+}
+
+@font-face {
+    font-family: Hedvig_Letters_Serif;
+    src: url(HedvigLettersSerif-Regular-VariableFont_opsz.ttf);
+}
+
+.topbar {
+
+    display: inline;
+}
