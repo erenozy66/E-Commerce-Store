@@ -1,13 +1,82 @@
 * {
     font-family: Hedvig_Letters_Serif;
+  
+    background-color: #FCFBF4;
 }
 
 @font-face {
     font-family: Hedvig_Letters_Serif;
     src: url(HedvigLettersSerif-Regular-VariableFont_opsz.ttf);
 }
+a {
 
+    color: rgb(44, 41, 41);
+}
 .topbar {
 
-    display: inline;
+   text-align: center;
+}
+
+#searchbttn1 {
+    float: left;
+    padding-top: 5vh;
+    height: 6vh;
+   
+}
+#search1 {
+    height: 3vh;
+}
+#cart1 {
+    height: 3vh;
+}
+
+#cartbttn1 {
+    float: right;
+    padding-top: 5vh;
+    margin-right: 3vh;
+}
+
+#logoplaceholder {
+    height: 10vh;
+    
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.shopbar {
+    text-align: center;
+  
+}
+
+.categories1 {
+
+    margin-right: 6vh;
+}
+
+.bannerphoto {
+
+    width: 100%;
+    object-fit: cover;
+    height: 60vh;
+}
+
+.infotext{
+    float: left;
+margin-left: 30%;
+}
+
+.aboutustext {
+    float: right;
+    margin-right: 30%;
+}
+
+.infotext2 {
+
+   font-size: small;
+}
+
+.aboutustext2 {
+
+    font-size: small;
 }
