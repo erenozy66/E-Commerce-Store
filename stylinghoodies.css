@@ -77,3 +77,18 @@ margin-left: 30%;
     font-size: small;
 }
 
+#filterslist {
+width: max-content;
+    margin-left: 20vh;
+  padding-right: 2vh;
+    border-right: 2px solid rgb(44, 41, 41);
+    text-align: center;
+   
+}
+
+#submithoody {
+
+    text-align: center;
+    color: #FCFBF4;
+    background-color: rgb(44, 41, 41);
+}
