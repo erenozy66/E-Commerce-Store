@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webshop</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="stylesheet" href="stylinghome.css">
+    <link rel="stylesheet" href="stylinghoodies.css">
 </head>
 <body>
 <div class="topbar">
@@ -25,8 +25,55 @@
         <a href="" class="categories1"><b>CONTACT US</b></a>
       </ul>
 </div>
-<div class="bannerphoto">
-      <img src="img/banner placeholder.jpg" alt="BANNER PLACEHOLDER" class="bannerphoto">
+<br>
+<div>
+    <!-- Make checkboxes unchecked by default using js -->
+    <p><b>Filters:</b></p>
+    <p>Sort by:</p>
+    <select name="" id="">
+        <option value="">Featured</option>
+        <option value="">Best selling</option>
+        <option value="">Price low - high</option>
+        <option value="">Price high - low</option>
+        
+      </select>
+  <p>Size:</p>
+  <input type="checkbox" id="SizeS" name="Size" checked />
+  <label for="Size">S</label>
+  <br>
+  <input type="checkbox" id="SizeM" name="Size" checked />
+  <label for="Size">M</label>
+  <br>
+  <input type="checkbox" id="SizeL" name="Size" checked />
+  <label for="Size">L</label>
+  <br>
+  <input type="checkbox" id="SizeXL" name="Size" checked />
+  <label for="Size">XL</label>
+
+  <p>Color:</p>
+  <input type="checkbox" id="ColorBlack" name="black" checked />
+  <label for="black">Black</label>
+  <br>
+  <input type="checkbox" id="ColorWhite" name="white" checked />
+  <label for="Size">White</label>
+  <br>
+  <input type="checkbox" id="ColorRed" name="red" checked />
+  <label for="Size">Red</label>
+  <br>
+  <input type="checkbox" id="ColorBlue" name="blue" checked />
+  <label for="Size">Blue</label>
+
+<br>
+
+<p>Min. price:</p>
+<input type="number" value="0" min="0" max="1000" step="50" />
+
+<p>Max. price:</p>
+<input type="number" value="0" min="0" max="1000" step="50" />
+<br>
+<br>
+<input type="submit">
+  
 </div>
       <footer>
         <ul class="infotext">
