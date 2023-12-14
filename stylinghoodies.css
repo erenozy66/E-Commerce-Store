@@ -59,6 +59,7 @@ a {
     text-align: center;
     float: left;
 margin-left: 30%;
+
 }
 
 .aboutustext {
@@ -83,11 +84,34 @@ width: max-content;
   padding-right: 2vh;
     border-right: 2px solid rgb(44, 41, 41);
     text-align: center;
+    float: left;
    
 }
 
 #submithoody {
 
+    text-align: center;
+    color: #FCFBF4;
+    background-color: rgb(44, 41, 41);
+}
+
+.pricerange {
+    border-radius:0.5em;
+    
+}
+
+.imagehood{
+   width: 25vh;
+   margin-left: 10vh;
+   
+}
+
+.listhoody {
+  display: inline-block;
+}
+
+.buttoncarthoody {
+    float: right;
     text-align: center;
     color: #FCFBF4;
     background-color: rgb(44, 41, 41);
